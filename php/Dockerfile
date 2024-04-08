@@ -6,3 +6,4 @@ RUN apk update; \
     apk upgrade;
 
 RUN docker-php-ext-install mysqli
+EXPOSE 4040
